@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Psychology</title>
+
+    <style>
+        nav {
+            background-color: brown;
+            order: 1;
+            width: 250px;
+        }
+
+        body {
+            flex-direction: row;
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            background-color: white;
+        }
+
+        a:hover {
+            color: orange;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        #orange {
+            background-color: #fff3e0;
+        }
+
+        #red {
+            background-color: #ff0000;
+        }
+
+        #yellow {
+            background-color: #FFFF00;
+        }
+
+        #pink {
+            background: #FFC0CB;
+        }
+
+        .color-card {
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 45%;
+        }
+
+        .color-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#orange">orange</a></li>
+            <li><a href="#red">red</a></li>
+            <li><a href="#yellow">yellow</a></li>
+            <li><a href="#pink">pink</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Color Psychology</h1>
+        <p>Color psychology is the study of how different hues, shades,
+            and visual light wavelengths affect human mood, behavior,
+            and physiological responses.</p>
+
+        <section>
+            <h2>Why Does Color Matter?</h2>
+            <p>Colors matter to customers because they trigger instant emotional reactions
+                and shape subconscious judgments about a brand before a person even reads any text.</p>
+        </section>
+
+        <section>
+            <h2>Colors and their effects</h2>
+            <div class="color-container">
+                <div id="orange" class="color-card">
+                    <h3>orange</h3>
+                    <p>boosts energy and playfulness while signaling 
+                    affordability to value-seeking shoppers.</p>
+                    <h4>Examples</h4>
+                    <ul>
+                        <li><strong>Emotional Effects:</strong> Evokes enthusiasm, warmth, playfulness, and high energy.</li>
+                        <li>Physical Effects: Increases oxygen supply to the brain and stimulates mental activity.</li>
+                        <li>Customer Behavior: Signals affordability and value while remaining approachable and friendly.</li>
+                    </ul>
+                </div>
+
+                <div id="red" class="color-card">
+                    <h3>red</h3>
+                    <p>creates instant urgency and stimulates appetite 
+                    by raising your physical heart rate.</p>
+                    <h4>Examples</h4>
+                    <ul>
+                        <li>Emotional Effects: Triggers passion, excitement, urgency, and survival instincts.</li>
+                        <li>Physical Effects: Raises heart rates, elevates blood pressure, and stimulates appetite.</li>
+                        <li>Customer Behavior: Drives impulse buying, creates a sense of scarcity, and commands immediate attention.</li>
+                    </ul>
+                </div>
+
+                <div id="yellow" class="color-card">
+                    <h3>yellow</h3>
+                    <p>sparks immediate optimism and warmth but 
+                    can cause visual fatigue if overused.</p>
+                    <h4>Examples</h4>
+                    <ul>
+                        <li>Emotional Effects: Sparks happiness, positivity, intellect, and creative energy.</li>
+                        <li>Physical Effects: Stimulates the nervous system and creates visual friction that demands attention.</li>
+                        <li>Customer Behavior: Catches the eye quickly from a distance but can cause visual fatigue if overused.</li>
+                    </ul>
+                </div>
+
+                <div id="pink" class="color-card">
+                    <h3>pink</h3>
+                    <p> provides calming comfort and empathy,
+                    which helps soften a buyer's defensive guard.</p>
+                    <h4>Examples</h4>
+                    <ul>
+                        <li>emotional Effects: Radiates romance, gentleness, empathy, and calming comfort.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
