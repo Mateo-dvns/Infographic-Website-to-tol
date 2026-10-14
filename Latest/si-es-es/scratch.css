@@ -1,0 +1,9 @@
+.parent {
+    display: grid;
+    background-color: pink;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100vw;
+    min-height: 100vh;
+
+}
