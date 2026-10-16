@@ -1,0 +1,31 @@
+.first-50-ms-big_sign{
+    margin-top: -50px;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    color: blue;
+}
+
+.first-50-ms-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+    margin-top: -130px;
+    margin-bottom: 70px;
+}
+
+.first-50-ms-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 2;
+
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+
+    padding-bottom: 50px;
+
+}
