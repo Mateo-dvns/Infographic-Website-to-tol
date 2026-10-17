@@ -1,0 +1,137 @@
+.colors{
+    background-color: rgb(247, 247, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0 60px;
+    
+}
+
+.colors-heading,
+.colors-subheading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colors-heading{
+    font-size: 40px;
+}
+
+.colors-subheading{
+    font-size: 20px;
+    margin-top: -10px;
+    font-style: italic;
+}
+
+
+.color-cards{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.color-cards table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 30px;
+    text-align: left;
+
+}
+
+
+.color-cards h3{
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 15px;
+}
+
+.color-cards td{
+
+    border-radius: 20px;
+    padding: 30px 40px 40px;
+    vertical-align: top;
+    line-height: 1.8;
+    transition: box-shadow 0.2s;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.15);
+}
+
+.color-cards td:hover{
+    box-shadow: 1px 1px 15px rgba(0,0,0,1);
+}
+
+.tagline{
+    font-weight: bold;
+    margin: -30px 0 50px;
+    text-align: center;
+}
+
+.color-cards ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.color-cards li{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.brands {
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+.brands-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+
+
+
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.card-red{
+    background-color: rgb(255, 227, 226);
+}
+.card-blue{
+    background-color: rgb(224, 232, 251);
+}
+.card-yellow{
+    background-color: rgb(253, 243, 200);
+}
+.card-purple{
+    background-color: rgb(234, 223, 252);
+}
+.card-green{
+    background-color: rgb(221, 242, 228);
+}
+.card-orange{
+    background-color: rgb(253, 230, 211);
+}

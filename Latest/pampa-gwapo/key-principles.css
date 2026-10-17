@@ -1,0 +1,78 @@
+.key-principles{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    padding: 30px 0 60px;
+    text-align: center;
+}
+
+.key-principles h2{
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.principles-subheading{
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: gray;
+}
+
+.key-principles > div{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.key-principles > div > p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.key-principle-cards table{
+    table-layout: fixed;
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: calc(100% + 200px);
+    margin: 0 -100px;
+}
+
+.key-principle-cards td{
+    background-color: white;
+    border: 1px solid rgb(228, 230, 240);
+    border-top: 5px solid rgb(37, 78, 219);
+    border-radius: 20px;
+    padding: 26px 22px 30px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.15);
+    transition: box-shadow 0.2s;
+}
+
+.key-principle-cards td:hover{
+    box-shadow: 1px 1px 15px rgba(0,0,0,1);
+}
+
+.key-principle-cards td h3{
+    font-size: 24px;
+    margin: 0 0 6px;
+}
+
+.key-principle-cards td > p{
+    color: rgb(90, 95, 110);
+    margin: 0 0 20px;
+}
+
+.key-principle-cards td div p{
+    margin: 0 0 14px;
+}
+
+.key-principle-cards td div p b{
+    display: block;
+    color: rgb(37, 78, 219);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}

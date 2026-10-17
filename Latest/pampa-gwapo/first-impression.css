@@ -7,6 +7,7 @@
     color: blue;
 }
 
+
 .first-50-ms-heading{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -27,5 +28,54 @@
     text-align: center;
 
     padding-bottom: 50px;
+}
+
+
+
+.first-50-ms-points{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    padding: 10px 300px;
+    gap: 30px;
+    display: flex;
+    margin-top: -45px;
+    text-align: left;
+}
+
+
+
+/* di pa tapos */
+
+.safe, .risky{
+    flex: 1;
+    padding: 30px 50px;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.15); 
+
 
 }
+
+.safe{
+    background-color: rgb(217, 245, 227);
+    transition:box-shadow 0.2s;
+}
+
+.safe:hover{
+    box-shadow: 0px 2.5px 10px rgba(0,0,0,1);
+}
+
+
+
+
+
+.risky{
+    background-color: rgb(255, 227, 226);
+    transition: box-shadow 0.2s;
+}
+
+.risky:hover{
+    box-shadow: 0px 2.5px 10px rgba(0,0,0,1);
+}
+
+
