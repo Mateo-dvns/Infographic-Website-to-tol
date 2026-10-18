@@ -1,3 +1,20 @@
 .katawan{
     margin: 0;
 }
+
+
+html {
+    scroll-behavior: smooth;      /* optional: animated scrolling */
+}
+
+.first-50-ms,
+.colors,
+.reality-check
+.key-principles,
+.ethics-of-emotional-design,
+.takeaways,
+.sources {
+    scroll-margin-top: 80px;      /* about the height of your navbar */
+}
+
+

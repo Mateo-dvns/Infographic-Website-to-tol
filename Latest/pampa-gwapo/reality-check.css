@@ -21,10 +21,11 @@
 
 .reality-check p{
     font-size: 20px;
+    padding-left: 15px;
+    border-left: 6px solid rgb(60, 60, 60);
 }
 
 .reality-check h2{
     font-size: 30px;
 }
-
 
