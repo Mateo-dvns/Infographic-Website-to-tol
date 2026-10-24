@@ -1,13 +1,6 @@
 .ethics-of-emotional-design{
     padding: 70px 0 100px;
-    background-color: rgba(21, 26, 45);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.ethics-of-emotional-design h2{
-    color: white;
-    font-size: 40px;
-    margin-bottom: -2.5px;
+    background-color: rgb(21, 26, 45);
 }
 
 .ethics-of-emotional-design h2,
@@ -15,6 +8,12 @@
     max-width: 780px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ethics-of-emotional-design h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: -2.5px;
 }
 
 .ethics-text{

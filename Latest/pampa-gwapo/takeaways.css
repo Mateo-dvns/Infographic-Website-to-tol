@@ -1,5 +1,4 @@
 .takeaways{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(247, 247, 251);
     padding: 70px 0 60px;
@@ -26,9 +25,6 @@
 
 
 .takeaways-content table {
-    width: auto;
-    table-layout: fixed;          /* three equal columns */
-    border-collapse: separate;
     border-spacing: 20px;     /* gap between the cards */
 }
 
@@ -54,7 +50,7 @@
 }
 
 
-/* the big blue number */
+/* big blue number at the top */
 .takeaways-content td::before {
     content: counter(takeaway);
     display: block;

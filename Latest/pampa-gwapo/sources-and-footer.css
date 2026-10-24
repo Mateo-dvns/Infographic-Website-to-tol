@@ -1,6 +1,5 @@
-.sources, .footer{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 60px 0 60px;
+.sources{
+    padding: 60px 0;
 }
 
 .sources ul, .sources h2{
@@ -15,24 +14,11 @@
     margin-bottom: -10px;
 }
 
-
-.footer{
-    padding: 20px 0 20px;
+.footer {
     display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    padding: 20px 0;
     text-align: center;
-    grid-template-columns: 1fr auto 1fr; 
     color: rgb(224, 224, 224);
     background-color: rgb(3, 0, 67);
 }
-
-.footer div{
-    text-align: center;
-}
-
-
-
-
-
-
-
-

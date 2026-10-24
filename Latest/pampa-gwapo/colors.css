@@ -1,6 +1,5 @@
 .colors{
     background-color: rgb(247, 247, 251);
-    font-family: Arial, Helvetica, sans-serif;
     padding: 40px 0 60px;
     
 }
@@ -8,7 +7,6 @@
 .colors-heading,
 .colors-subheading{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .colors-heading{
@@ -21,7 +19,7 @@
     font-style: italic;
 }
 
-
+/*cards*/
 .color-cards{
     max-width: 1300px;
     margin: 0 auto;
@@ -32,7 +30,6 @@
 .color-cards table{
     width: 100%;
     table-layout: fixed;
-    border-collapse: separate;
     border-spacing: 30px;
     text-align: left;
 }
@@ -75,18 +72,15 @@
 
 
 
-
+/*brand examples*/
 .brands {
     margin-top: 25px;
-    padding-top: 20px;
 }
 
 .brands-label {
-    font-size: 18px;
     font-weight: bold;
     margin: 0 0 15px;
 }
-
 
 .logos {
     display: flex;
@@ -94,35 +88,15 @@
     gap: 25px;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: bold;
-}
-
 .logo img {
-    height: 40px;
+    height: 35px;
     width: auto;
     display: block;
 }
 
-.card-red{
-    background-color: rgb(255, 227, 226);
-}
-.card-blue{
-    background-color: rgb(224, 232, 251);
-}
-.card-yellow{
-    background-color: rgb(253, 243, 200);
-}
-.card-purple{
-    background-color: rgb(234, 223, 252);
-}
-.card-green{
-    background-color: rgb(221, 242, 228);
-}
-.card-orange{
-    background-color: rgb(253, 230, 211);
-}
+.card-red    { background-color: rgb(255, 227, 226); }
+.card-blue   { background-color: rgb(224, 232, 251); }
+.card-yellow { background-color: rgb(253, 243, 200); }
+.card-purple { background-color: rgb(234, 223, 252); }
+.card-green  { background-color: rgb(221, 242, 228); }
+.card-orange { background-color: rgb(253, 230, 211); }

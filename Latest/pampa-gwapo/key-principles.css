@@ -1,19 +1,7 @@
 .key-principles{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(247, 247, 247);
     padding: 30px 0 60px;
     text-align: center;
-}
-
-.key-principles h2{
-    padding-top: 10px;
-    font-size: 40px;
-}
-
-.principles-subheading{
-    padding-bottom: 40px;
-    font-size: 18px;
-    color: gray;
 }
 
 .key-principles > div{
@@ -22,15 +10,27 @@
     padding: 0 20px;
 }
 
-.key-principles > div > p{
+.key-principles h2{
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+
+
+.principles-subheading{
     max-width: 700px;
     margin: 0 auto;
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: gray;
 }
+
+
+
+
 
 .key-principle-cards table{
     table-layout: fixed;
-    border: 0;
-    border-collapse: separate;
     border-spacing: 10px;
     width: calc(100% + 200px);
     margin: 0 -100px;
